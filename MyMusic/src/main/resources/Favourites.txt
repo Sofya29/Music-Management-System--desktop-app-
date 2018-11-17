@@ -1,0 +1,2 @@
+{"path":"src\\main\\resources\\AllMusic\\0304 Elton John - Your Song.mp3","lengthInSeconds":null,"id3Version":null,"title":"Your Song","year":"","genre":"Pop"}
+{"path":"src\\main\\resources\\AllMusic\\1-04 Don't Let The Sun Down On Me.mp3","lengthInSeconds":null,"id3Version":null,"title":"","year":"","genre":"Unknown"}

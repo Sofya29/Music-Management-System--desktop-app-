@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" prefHeight="580" prefWidth="400" xmlns:fx="http://javafx.com/fxml" fx:controller="ku.piii.mymusic.FXMLController">
+    <children>
+        <TextField fx:id="searchBar" layoutX="150" layoutY="50" maxWidth="250" ></TextField>
+        <Button text="Upload" onAction="#upload" fx:id="upload" layoutX="310" layoutY="50"  ></Button>
+        <HBox fx:id="searchResults" layoutX="100" layoutY="100" prefHeight="400" prefWidth="700"  ></HBox>
+        <Button text="View All My Music" onAction="#viewAll" fx:id="btnViewAll" layoutX="370" layoutY="50"  ></Button>
+        <Button text="Add to Favourites" onAction="#addToFavourite" fx:id="btnFavourite" layoutX="340" layoutY="530" visible="false"  ></Button>
+        <Button text="View Favourites" onAction="#viewFavourites" fx:id="btnViewFavourites" layoutX="500" layoutY="50"></Button>
+        <Button text="Play Song" onAction="#playSong" fx:id="btnPlay" layoutX="650" layoutY="50" visible="true"></Button>
+        <Button text="Remove Duplicates" onAction="#deleteDuplicates" fx:id="btnDeleteDuplicates" layoutX="340" layoutY="530" visible="false"></Button>
+        <Label fx:id="pleaseSelect" layoutX="470" layoutY="530" ></Label>
+    </children>
+</AnchorPane>
