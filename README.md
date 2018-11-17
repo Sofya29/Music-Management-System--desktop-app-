@@ -1,1 +1,1 @@
-# PIII
+This project was completed in my third and final year of university. It involved building on an existing application, which was written in Java FX. My addition to this project involves everything that is in the 'MyMusic' project. Junit tests were written to ensure that functionality was tested appropriately. (Academic year 2016-2017)
